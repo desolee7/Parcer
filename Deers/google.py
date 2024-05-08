@@ -1,9 +1,9 @@
 from icrawler.builtin import GoogleImageCrawler
 from datetime import date
 
-google_crawler = GoogleImageCrawler(storage={'root_dir': 'C:/Users/Ева/Desktop/Универ/парсер/abc'})
+google_crawler = GoogleImageCrawler(storage={'root_dir': 'C:/Users/Ева/Desktop/Универ/парсер/EuropeanRoedeer4'})
 
-google_crawler.crawl(keyword = 'старый олень', max_num = 50)
+google_crawler.crawl(keyword = 'европейская косуля в поле', max_num = 800)
 
 # print('Количество фоток: ')
 # count=int(input())
